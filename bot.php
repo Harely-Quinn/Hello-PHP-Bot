@@ -3,7 +3,7 @@
 define('BOT_TOKEN', '5222789174:AAEbLoEblROO2XpvQdVeDitvIA7VlmxipdA');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
-function exec_curl_request($handle) {
+function exec_curl_request($handle) {{
   $response = curl_exec($handle);
 
   if ($response === false) {
